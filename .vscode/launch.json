@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "args": ["run-many", "--all", "--target=do-stuff", "--parallel"],
+      "name": "Do Stuff",
+      "program": "${workspaceFolder}/node_modules/.bin/nx",
+      "request": "launch",
+      "skipFiles": ["<node_internals>/**"],
+      "type": "pwa-node",
+      "outputCapture": "std"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "projects": {
+    "one": {
+      "root": "one",
+      "architect": {
+        "do-stuff": {
+          "builder": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": ["true"]
+          }
+        }
+      }
+    },
+    "two": {
+      "root": "two",
+      "architect": {
+        "do-stuff": {
+          "builder": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": ["false"]
+          }
+        }
+      }
+    },
+    "three": {
+      "root": "three",
+      "architect": {
+        "do-stuff": {
+          "builder": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": ["true"]
+          }
+        }
+      }
+    },
+    "four": {
+      "root": "four",
+      "architect": {
+        "do-stuff": {
+          "builder": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": ["true"]
+          }
+        }
+      }
+    }
+  }
+}

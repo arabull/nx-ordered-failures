@@ -1,0 +1,21 @@
+{
+  "npmScope": "test",
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nrwl/workspace/tasks-runners/default",
+      "options": {
+        "strictlyOrderedTargets": ["do-stuff"]
+      }
+    }
+  },
+  "projects": {
+    "one": {},
+    "two": {},
+    "three": {
+      "implicitDependencies": ["one"]
+    },
+    "four": {
+      "implicitDependencies": ["two"]
+    }
+  }
+}
